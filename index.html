@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel='stylesheet' href='styles.css'>
+    <title>Photo Gallery</title>
+</head>
+<body>
+
+<div class='topnavbar'>
+    <h2 class='title'>Picture Perfect Studios</h1>
+    <ul class='links'>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <div class='menu'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>     
+    </div>
+</div>
+
+<div class='header-cont'>
+    <h1 class='header'>Take a look at our photos</h1>
+</div>
+
+<div class='container'>
+    <div class='grid'>
+        <div class='img img-1'>
+            <img src='butterfly.jpg' alt='img1' onclick="myFunction(this);">
+        </div>
+        <div class='img img-2'>
+            <img src='cheetah.jpg' alt='img2' onclick="myFunction(this);">
+        </div>
+        <div class='img img-3'>
+            <img src='fox.jpg' alt='img3' onclick="myFunction(this);">
+        </div>
+        <div class='img img-4'>
+            <img src='husky.jpg' alt='img4' onclick="myFunction(this);">
+        </div>
+        <div class='img img-5'>
+            <img src='lion.jpg' alt='img5' onclick="myFunction(this);">
+        </div>
+
+        <div class='img img-6'>
+            <img src='fox.jpg' alt='img6' onclick="myFunction(this);">
+        </div>
+
+        <div class='img img-7'>
+            <img src='husky.jpg' alt='img7' onclick="myFunction(this);">
+        </div>
+
+        <div class='img img-8'>
+            <img src='cheetah.jpg' alt='img8' onclick="myFunction(this);">
+        </div>
+    </div>
+</div>   
+
+<div class='bigimgbg'>
+    <div class="bigimg">
+        <span onclick="exit();" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+</div>
+
+<footer class='footernavbar'>
+    <ul class='footerlinks'>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</footer>
+    <script src='app.js'></script>
+</body>
+</html>
