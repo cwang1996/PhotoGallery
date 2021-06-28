@@ -13,10 +13,6 @@ body {
     background-color: #fdece1;
 }
 
-.header-cont {
-    display: flex;
-}
-
 .container {
     width: 100%;
     height: 100%;
@@ -92,12 +88,16 @@ img:hover {
     background-color: #612940;
 }
 
+.header-cont {
+    display: flex;
+}
+
 .header {
     font-size: 50px;
     color: #404040;
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 40%;
     transform: translate(-30%, -45%); 
     letter-spacing: .1em;
     color: #612940;
